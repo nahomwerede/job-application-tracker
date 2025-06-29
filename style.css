@@ -33,3 +33,29 @@ th, td {
 th {
   background-color: #f0f0f0;
 }
+:root {
+  --main-color: #6d4040;
+  --bg-color: #fefefe;
+  --text-color: #333;
+  --accent: #a86767;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+}
+h1 {
+  color: var(--main-color);
+}
+button {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--accent);
+}
